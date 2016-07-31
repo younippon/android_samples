@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">android_material_components</string>
+    <string name="app_name">SampleApp</string>
+
+    <string name="home">ホーム</string>
+    <string name="menu1">メニュー１</string>
+    <string name="menu2">メニュー２</string>
+    <string name="menu3">メニュー３</string>
+    <string name="settings">設定</string>
+
+    <string name="openDrawer">開く</string>
+    <string name="closeDrawer">閉じる</string>
 </resources>
