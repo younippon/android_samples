@@ -9,4 +9,9 @@
 
     <string name="openDrawer">開く</string>
     <string name="closeDrawer">閉じる</string>
+
+    <!-- for debug -->
+    <string name="debugName">younippon</string>
+    <string name="debugMail">yo@younippon.com</string>
+
 </resources>

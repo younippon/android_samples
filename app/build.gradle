@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.0"
+    compileSdkVersion 24
+    buildToolsVersion "${support_lib_version}"
 
     defaultConfig {
         applicationId "younippon.github.io.android_material_components"
         minSdkVersion 16
-        targetSdkVersion 23
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
@@ -26,9 +26,12 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.0.0'
-    compile 'com.android.support:design:23.0.0'
+    compile "com.android.support:appcompat-v7:${support_lib_version}"
+    compile "com.android.support:design:${support_lib_version}"
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    //ui
+    compile 'de.hdodenhof:circleimageview:2.1.0'
 }
 repositories {
     mavenCentral()
